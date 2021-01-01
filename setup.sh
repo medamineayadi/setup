@@ -33,7 +33,7 @@ else
   exit 1
 fi
 if [ $pack -eq 0 ];then
-  sudo pacman -Sy --noconfirm xorg-server xorg-xinit xorg-xset xorg-xsetroot xclip alacritty noto-fonts rofi neovim lxsession 
+  sudo pacman -Sy --noconfirm xorg-server xorg-xinit xorg-xsetroot xclip alacritty noto-fonts rofi neovim lxsession 
   if [ $auuur -eq 0 ];then
     yay -Sy --noconfirm brave-bin
   fi
